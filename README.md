@@ -2,6 +2,8 @@
 
 This is a Fortnite API build in NodeJS, for making the work easier for data analysts!
 
+<h1>Without giving any credentials.</h1>
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" width="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://fortnite-api.com/assets/img/logo_128.png?t=1629751563" width="120">
 
 # How to use
