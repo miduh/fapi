@@ -8,7 +8,7 @@ This is a Fortnite API build in NodeJS, for making the work easier for data anal
 
 **Battle Royal Stats Example**
 
-    const  {  BattleRoyaleStatsService  }  =  require("./fapi/BattleRoyaleStatsService");
+    const  {  BattleRoyaleStatsService  }  =  require("./fapi");
 	const  BR_Stats  =  new  BattleRoyaleStatsService();
 	BR_Stats.getStats("Ninja",  "epic",  "lifetime",  "all")
 		.then(result  =>  console.log(result))
@@ -27,14 +27,14 @@ This API was built in 1 afternoon! By me! With the help of a community of [Itali
 ## Other examples
 * **Battle Royal Shop Example**
 
-    `const  {  BattleRoyaleShopService  }  =  require("./fapi/BattleRoyaleShopService");
+    `const  {  BattleRoyaleShopService  }  =  require("./fapi");
 	const  BR_Shop  =  new  BattleRoyaleShopService();
 	BR_Stats.getCurrentShop()
 		.then(result  =>  console.log(result))
 		.catch(error  =>  console.error(error))`
 *	**AES Key Example**
 
-    `const  {  AESService }  =  require("./fapi/AESService");
+    `const  {  AESService }  =  require("./fapi");
 	const  AES  =  new  AESService();
 	AES.getCurrentAESKey()
 		.then(result  =>  console.log(result))
